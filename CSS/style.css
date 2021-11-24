@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+ 
 }
 :root {
   --main-bg-color: rgb(38, 16, 236);
@@ -87,7 +88,10 @@ border-radius: 7px;
 }
 .cards{
     display: flex;
-    overflow: hidden;
+    overflow: scroll;
+}
+.cards ::-webkit-scrollbar{
+    display: none;
 }
 footer {
   font-family: "Lato", sans-serif;
