@@ -1,0 +1,32 @@
+@media screen and (max-width:700px) {
+    
+    header{
+        padding: 25px 0px;
+    }
+    nav{
+        flex-direction: column;
+        margin: 0px auto;
+    }
+    nav ul {
+        margin: 2px auto 14px auto;
+    }
+    .logo img{
+        padding: 0px;
+        margin: 4px;
+    }
+    .search input{
+        margin: 0;
+    }
+    .slider img{
+        height: 20vh;
+    }
+    .btn {
+        font-family: "Lato", sans-serif;
+        padding: 5px 5px;
+        border: 2px solid white;
+        background-color: var(--main-bg-color);
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+}
